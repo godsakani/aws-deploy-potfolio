@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baimam Boukar - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="layout-wrapper">
+      <aside class="sidebar">
+        <div class="profile-section">
+          <img
+            id="profile-avatar"
+            class="profile-avatar"
+            src=""
+            alt="Profile"
+          />
+          <h1 id="profile-name" class="profile-name"></h1>
+          <p id="profile-title" class="profile-title"></p>
+          <p id="profile-institution" class="profile-institution"></p>
+          <p id="profile-bio" class="profile-bio"></p>
+
+          <div class="social-links" id="social-links"></div>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <nav class="top-nav" id="top-nav"></nav>
+
+        <section id="about" class="content-section active">
+          <h2 class="section-title">About me</h2>
+          <p id="about-content" class="section-text"></p>
+
+          <div class="subsection">
+            <h3>Interests</h3>
+            <ul id="interests-list" class="styled-list"></ul>
+          </div>
+
+          <div class="subsection">
+            <h3>Education</h3>
+            <div id="education-list" class="education-list"></div>
+          </div>
+        </section>
+
+        <section id="experience" class="content-section">
+          <h2 class="section-title">Experience</h2>
+          <div id="experience-list" class="experience-list"></div>
+        </section>
+
+        <section id="projects" class="content-section">
+          <h2 class="section-title">Projects</h2>
+          <div id="projects-list" class="projects-list"></div>
+        </section>
+
+        <section id="certifications" class="content-section">
+          <h2 class="section-title">Certifications</h2>
+          <div id="certifications-list" class="certifications-list"></div>
+        </section>
+
+        <section id="publications" class="content-section">
+          <h2 class="section-title">Publications</h2>
+          <div id="publications-list" class="publications-list"></div>
+        </section>
+
+        <section id="portfolio" class="content-section">
+          <h2 class="section-title">Portfolio & CV</h2>
+          <div class="cv-section">
+            <div class="subsection">
+              <h3>Featured Projects</h3>
+              <div id="portfolio-projects" class="portfolio-grid"></div>
+            </div>
+
+            <div class="subsection">
+              <h3>Skills & Technologies</h3>
+              <div id="cv-skills" class="skills-grid"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
